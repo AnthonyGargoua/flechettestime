@@ -1,7 +1,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Darts 301 Tracker',
+  title: 'Fléchettes entre copains',
   description: 'Application interactive de fléchettes',
 }
 
