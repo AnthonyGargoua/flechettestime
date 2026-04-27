@@ -49,7 +49,7 @@ export default function DartsGame() {
   if (!gameStarted) {
     return (
       <main className="flex flex-col items-center justify-center min-h-screen p-4">
-        <h1 className="text-4xl font-bold text-orange-500 mb-8">🎯 Flechettes Time (classique 301)</h1>
+        <h1 className="text-4xl font-bold text-orange-500 mb-8">🎯 Flèchettes entre copains (classique 301)</h1>
         <div className="bg-slate-800 p-6 rounded-xl w-full max-w-md border border-slate-700 shadow-2xl">
           <div className="flex gap-2 mb-6">
             <input 
