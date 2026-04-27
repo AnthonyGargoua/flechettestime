@@ -49,7 +49,7 @@ export default function DartsGame() {
   if (!gameStarted) {
     return (
       <main className="flex flex-col items-center justify-center min-h-screen p-4">
-        <h1 className="text-4xl font-bold text-orange-500 mb-8">🎯 Flèchettes entre copains (classique 301)</h1>
+        <h1 className="text-4xl font-bold text-orange-500 mb-8">🎯 Flèchettes entre copains</h1>
         <div className="bg-slate-800 p-6 rounded-xl w-full max-w-md border border-slate-700 shadow-2xl">
           <div className="flex gap-2 mb-6">
             <input 
@@ -69,7 +69,7 @@ export default function DartsGame() {
           </div>
           {players.length > 0 && (
             <button onClick={() => setGameStarted(true)} className="w-full bg-green-600 py-4 rounded-lg font-bold text-lg hover:bg-green-500 transition shadow-lg">
-              LANCER LA PARTIE
+              LET'S GO (vous allez souffrir)
             </button>
           )}
         </div>
@@ -80,7 +80,7 @@ export default function DartsGame() {
   return (
     <main className="p-4 max-w-5xl mx-auto min-h-screen">
       <div className="flex justify-between items-center mb-8 border-b border-slate-700 pb-4">
-        <h1 className="text-2xl font-bold text-orange-500">🎯 301 Game</h1>
+        <h1 className="text-2xl font-bold text-orange-500">🎯 Flèchettes entre copains</h1>
         <button onClick={() => window.location.reload()} className="text-slate-400 text-sm hover:text-white">Quitter</button>
       </div>
 
@@ -122,7 +122,7 @@ export default function DartsGame() {
               <span className="text-[10px]">DBL BULL</span>
               <span>50</span>
             </button>
-            <button onClick={() => handleHit(0, 1)} className="bg-slate-600 hover:bg-slate-500 p-3 rounded-lg font-bold">MISS</button>
+            <button onClick={() => handleHit(0, 1)} className="bg-slate-600 hover:bg-slate-500 p-3 rounded-lg font-bold">RATÉ 👍</button>
           </div>
         </div>
       </div>
